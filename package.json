@@ -1,0 +1,23 @@
+{
+  "name": "aeon-simple-server-demo",
+  "version": "1.0.0",
+  "description": "A demo of aeon server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cowardcalf/aeon-simple-server-demo.git"
+  },
+  "author": "Yang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cowardcalf/aeon-simple-server-demo/issues"
+  },
+  "homepage": "https://github.com/cowardcalf/aeon-simple-server-demo#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
