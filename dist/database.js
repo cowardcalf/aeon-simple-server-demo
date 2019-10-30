@@ -9,7 +9,7 @@ var _diskdb = _interopRequireDefault(require("diskdb"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
-_diskdb["default"].connect('./data', ['movies']);
+_diskdb["default"].connect('./data', ['movies', 'aeonTimeline']);
 
 if (!_diskdb["default"].movies.find().length) {
   var movie = {
